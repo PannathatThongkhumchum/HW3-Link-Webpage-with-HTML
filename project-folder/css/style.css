@@ -1,0 +1,51 @@
+/* กำหนดฟอนต์หลักให้ทั้งเว็บไซต์ */
+body {
+    font-family: "Arial", "Tahoma", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+/* จัดกึ่งกลางหัวข้อหลัก */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #2c3e50;
+}
+
+/* หัวข้อรอง */
+h2, h3 {
+    font-size: 24px;
+    color: #34495e;
+}
+
+/* ข้อความปกติให้จัดแบบ justify */
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* เน้นข้อความบางส่วน */
+strong {
+    font-weight: bold;
+}
+
+u {
+    text-decoration: underline;
+}
+
+/* รูปภาพทั่วไป */
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+/* รูปภาพประจำตัว (เป็นวงกลม) */
+.profile-img {
+    border-radius: 50%;
+}
