@@ -95,3 +95,11 @@ td, th {
     color: #34495e;
     padding: 10px;
 }
+
+div {
+ border: 8px solid #e6d45a;
+ padding: 20px 80px;
+ background: #67c8d7;
+ width: 100px;
+ border-radius: 45px;
+ }
